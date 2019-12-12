@@ -1,7 +1,8 @@
 {
   "private": true,
   "scripts": {
-    "server": "nodemon -r dotenv/config index.js"
+    "server": "nodemon -r dotenv/config index.js",
+    "start": "node index.js"
   },
   "dependencies": {
     "express": "4.17.1"
